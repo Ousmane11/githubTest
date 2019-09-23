@@ -1,0 +1,253 @@
+body {
+  min-height: 100vh;
+  margin: 0 2%;
+}
+
+h3 {
+  margin: 2%;
+}
+
+.searchBox {
+  display: flex;
+  width: 50vw;
+  height: 20%;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+.searchBox input {
+  width: 80%;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  margin-right: 2%;
+  margin-bottom: 1%;
+}
+.searchBox button {
+  width: 15%;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  margin-bottom: 1%;
+}
+
+.dom {
+  display: none;
+}
+
+#errorDiv {
+  display: block;
+  width: 47.5vw;
+  height: 10%;
+  justify-content: center;
+  border: 1px solid #E9967A;
+  border-radius: 5px;
+  background-color: #FFC0CB;
+  padding: 1%;
+}
+#errorDiv p {
+  color: #800000;
+}
+
+.profile {
+  width: 50vw;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  height: 20vh;
+}
+.profile .avatar-div img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.profile .info {
+  display: flex;
+  flex-direction: column;
+}
+
+.repos {
+  display: block;
+  width: 50vw;
+  margin-top: 2%;
+}
+.repos .thin-hr {
+  height: 1px;
+  border: 1px;
+  border-top: 1px solid #555;
+}
+.repos hr {
+  display: block;
+  height: 3px;
+  border: 3px;
+  border-top: 3px solid #555;
+}
+.repos .dom-div {
+  display: flex;
+  width: 60vw;
+  flex-wrap: nowrap;
+  margin: 1% 0;
+}
+.repos .dom-div .icon1 {
+  position: absolute;
+  margin-left: 35%;
+}
+.repos .dom-div .pOne {
+  position: absolute;
+  margin-left: 37%;
+}
+.repos .dom-div .icon2 {
+  position: absolute;
+  margin-left: 40%;
+}
+.repos .dom-div .pTwo {
+  position: absolute;
+  margin-left: 42%;
+}
+
+@media screen and (max-width: 800px) {
+  .searchBox {
+    width: 80vw;
+  }
+
+  #errorDiv {
+    width: 77.5vw;
+  }
+
+  .profile {
+    width: 80vw;
+  }
+
+  .repos {
+    display: block;
+    width: 80vw;
+  }
+  .repos .dom-div {
+    width: 80vw;
+  }
+  .repos .dom-div .icon1 {
+    margin-left: 70%;
+  }
+  .repos .dom-div .pOne {
+    margin-left: 72%;
+  }
+  .repos .dom-div .icon2 {
+    margin-left: 74%;
+  }
+  .repos .dom-div .pTwo {
+    margin-left: 76%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .icon1 {
+    position: absolute;
+    margin-left: 30%;
+  }
+
+  .pOne {
+    position: absolute;
+    margin-left: 40%;
+  }
+
+  .icon2 {
+    position: absolute;
+    margin-left: 50%;
+  }
+
+  .pTwo {
+    position: absolute;
+    margin-left: 60%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .searchBox {
+    width: 95vw;
+    height: 30%;
+  }
+  .searchBox input {
+    height: 100%;
+  }
+  .searchBox button {
+    height: 100%;
+  }
+
+  #errorDiv {
+    width: 92.5vw;
+  }
+
+  .profile {
+    width: 95vw;
+  }
+
+  .repos {
+    display: block;
+    width: 95vw;
+  }
+  .repos .dom-div {
+    width: 95vw;
+  }
+  .repos .dom-div .icon1 {
+    right: 20%;
+  }
+  .repos .dom-div .pOne {
+    right: 15%;
+  }
+  .repos .dom-div .icon2 {
+    right: 10%;
+  }
+  .repos .dom-div .pTwo {
+    right: 5%;
+  }
+}
+@media screen and (max-width: 450px) {
+  body {
+    margin: 0 1%;
+  }
+
+  .searchBox {
+    width: 95vw;
+    margin-top: 3%;
+    margin-bottom: 5%;
+  }
+  .searchBox input {
+    width: 65%;
+    height: 7vh;
+  }
+  .searchBox button {
+    width: 25%;
+    height: 7vh;
+  }
+
+  #errorDiv {
+    width: 87.5vw;
+    height: 7vh;
+  }
+
+  .profile {
+    width: 95vw;
+  }
+  .profile .avatar-div img {
+    margin-right: 1%;
+  }
+
+  .repos {
+    width: 95vw;
+    margin-top: 5%;
+  }
+  .repos .dom-div {
+    width: 95vw;
+  }
+  .repos .dom-div .icon1 {
+    right: 20%;
+  }
+  .repos .dom-div .pOne {
+    right: 15%;
+  }
+  .repos .dom-div .icon2 {
+    right: 10%;
+  }
+  .repos .dom-div .pTwo {
+    right: 5%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

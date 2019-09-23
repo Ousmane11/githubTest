@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Marfeel test</title>
+    <h3>Github search</h3>
+    <!-- Bootstrap reboot and flexbox cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    
+    <div class= "searchBox">
+        <input id="username" type="text" placeholder="Search username...">
+        <button onclick="bringInfo()">Search</button>
+    </div>
+
+    <!-- Structure for DOM dynamic data -->
+    <div class="dom">
+     <section class="profile">
+         <div class="avatar-div">
+             <img id="avatar"><img>
+        </div>
+        <div class="info"></div>
+     </section>
+
+     <section class="repos">
+        <h4>Repositories</h4>
+        <hr>
+        <div id="eachRepo"></div>
+     </section>
+    </div>
+    
+     <!-- Scripts: Axios and javascript -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>

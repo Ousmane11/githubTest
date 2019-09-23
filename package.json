@@ -1,0 +1,32 @@
+{
+  "name": "marfeel_frontend_test",
+  "version": "1.0.0",
+  "description": "Client side web app to search github users and repos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marfeel/FrontendTest.git"
+  },
+  "keywords": [
+    "github",
+    "api",
+    "js",
+    "html5",
+    "css3",
+    "ajax",
+    "dom"
+  ],
+  "author": "Ousmane Yade",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Marfeel/FrontendTest/issues"
+  },
+  "homepage": "https://github.com/Marfeel/FrontendTest#readme",
+  "dependencies": {
+    "@octokit/rest": "^16.30.0",
+    "http-server": "^0.11.1"
+  }
+}

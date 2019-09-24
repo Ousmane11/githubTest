@@ -147,7 +147,7 @@ const printInfo = data => {
 
 // Function to store the input value
 let bringInfo =  () => {
-input = document.getElementById("username").value
+const input = document.getElementById("username").value
 // console.log(input)
 getUserInfo(input)
 

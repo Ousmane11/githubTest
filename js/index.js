@@ -10,7 +10,7 @@ const getUserInfo = input => {
         .then(response => {
           printInfo(response.data)
           
-          // Api call that retrieves the repositories of the user and maps each repository to
+          // Api call that retrieves the repositories of the user and iterates each repository to
           // create dom elements to render it
             githubApi.get(`users/${input}/repos`) 
              .then(response => {
@@ -24,7 +24,7 @@ const getUserInfo = input => {
                   //Renders the repos of the user searched//
                    const repositories = response.data
                   //  console.log(repositories)
-                   repositories.map( elm => {
+                   repositories.forEach( elm => {
 
                     const reposDiv = document.getElementById("eachRepo")
                     const div = document.createElement("div")
